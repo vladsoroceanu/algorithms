@@ -1,9 +1,3 @@
-function swapArrayPositions(arr: number[], first: number, second: number) {
-    const tmp = arr[first];
-    arr[first] = arr[second];
-    arr[second] = tmp;
-}
-
 function qs(arr: number[], lo: number, hi: number): void {
     // base cases
     if (lo >= hi) {
